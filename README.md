@@ -28,6 +28,17 @@ https://gitee.com/http1520/file_hander_tools.git
 和UI.bin合并成all.bin然后烧录到flash (用bin打包工具合并到0x200000）    
 然后可以只烧录ble_simple_peripheral.bin（写到0x0）  
 https://gitee.com/http1520/lvgl_knob_open_demo  
+```
+!!! not sure  
+GND<-->GND (right bottom 3)   
+VCC<-->VBAT (left bottom 3)   
+SCL<-->PB0 (right top 1)   
+SDA<-->PB2 (left top 2)   
+RES<-->PD5 (left top 5)   
+DC<-->PB3 (right top 2)   
+CS<-->PA5 (right bottom 4)    
+BLK<-->NC  
+```
 
 ## FR5082DM (named FR5086D, but not), not good, need Xplorer, but I don't have it.      
 * https://www.freqchip.com/fr508x  

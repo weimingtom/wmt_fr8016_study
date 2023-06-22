@@ -15,7 +15,7 @@ My freqchip study
 * 400x400: fr800x_lvgl_prj_20220903_dev_ver_v1_st77903_not_good.rar  
 * 400x400, all.bin: fr800x_lvgl_prj_20220903_dev_ver_v2_no_random_screen.7z  
 https://gitee.com/http1520/file_hander_tools.git  
-和UI.bin合并成all.bin然后烧录到flash  
+和UI.bin合并成all.bin然后烧录到flash (用bin打包工具合并到0x200000）    
 然后可以只烧录ble_simple_peripheral.bin  
 https://gitee.com/http1520/lvgl_knob_open_demo  
 

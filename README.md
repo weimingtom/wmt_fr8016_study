@@ -16,7 +16,7 @@ My freqchip study
 * 400x400, all.bin: fr800x_lvgl_prj_20220903_dev_ver_v2_no_random_screen.7z  
 https://gitee.com/http1520/file_hander_tools.git  
 和UI.bin合并成all.bin然后烧录到flash (用bin打包工具合并到0x200000）    
-然后可以只烧录ble_simple_peripheral.bin  
+然后可以只烧录ble_simple_peripheral.bin（写到0x0）  
 https://gitee.com/http1520/lvgl_knob_open_demo  
 
 ## FR5082DM (named FR5086D, but not), not good, need Xplorer, but I don't have it.      

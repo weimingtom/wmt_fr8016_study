@@ -48,6 +48,14 @@ DC<-->PB3 (right top 2)
 CS<-->PA5 (right bottom 4)    
 BLK<-->NC  
 ```
+```
+我终于跑通了富芮坤FR8008XP开发板和400分辨率圆形屏的用法，烧录效果如下。这里有几个问题
+（1）如果直接烧录，图片会花屏，那是因为图片都是通过Flash映射的内存地址去读的，
+需要用工具写入0x200000处，或者用工具合并成一个bin文件，
+烧录一次后下次就无需烧录0x200000的图片了
+（2）示例代码和这个屏幕的驱动代码不在gitee上，但有提供一个示例工程代码，
+我这里把原本的首页的字改了
+```
 
 ## FR5082DM (named FR5086D, but not), not good, need Xplorer, but I don't have it.      
 * https://www.freqchip.com/fr508x  

@@ -19,7 +19,7 @@ My freqchip study
 * https://www.freqchip.com/fr800x  
 * https://gitee.com/freqchip/fr8000  
 * https://gitee.com/http1520/fr8000_lvgl_watch_240x280  
-* 240x280: fr8000_lvgl_watch_240x280-master_v1_run_success.rar  
+* 240x280 (需要自己接面包板): fr8000_lvgl_watch_240x280-master_v1_run_success.rar  
 ```
 GND<-->GND (right bottom 3)   
 VCC<-->VBAT (left bottom 3)   
@@ -30,7 +30,7 @@ DC<-->PB3 (right top 2)
 CS<-->PB1 (left top 1)    
 BLK<-->NC  
 ```
-* 400屏幕, fr800x_lvgl_prj_20220903_dev_ver.rar
+* 400屏幕 (官方售卖的1.6寸ips圆形屏转接板和扩展板, 400*400分辨率, st77903), fr800x_lvgl_prj_20220903_dev_ver.rar
 * 400x400: fr800x_lvgl_prj_20220903_dev_ver_v1_st77903_not_good.rar  
 * 400x400, all.bin: fr800x_lvgl_prj_20220903_dev_ver_v2_no_random_screen.7z  
 https://gitee.com/http1520/file_hander_tools.git  

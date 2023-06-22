@@ -4,7 +4,16 @@ My freqchip study
 ## FR8016HA  
 * https://www.freqchip.com/fr801xh  
 * https://gitee.com/freqchip/FR801xH-SDK  
-* dev_v1_use_white_hongmi_write_wav_success.rar  
+* dev_v1_use_white_hongmi_write_wav_success.rar
+* 红米传输  
+```
+我把FR8016HA开发板的声音播放跑通了，
+（1）烧录程序：不能用gitee最新版，要用旧资料的代码（会导致屏幕花屏，但功能正常）
+（2）需要用特定的安卓手机才能正常蓝牙传输wav文件，我用的是红米4A，安卓6，
+安卓是gitee上的SBC最新版
+（3）我接的喇叭是8Ω0.5W圆形喇叭（8R），带公头杜邦线（需面包板），原版没有，需要自备
+（4）按K1数次，然后按K2播放
+```
 
 ## FR8008XP  
 * https://www.freqchip.com/fr800x  

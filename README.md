@@ -53,3 +53,18 @@ BLK<-->NC
 * https://www.freqchip.com/fr508x  
 * https://gitee.com/freqchip/fr5080-dsp  
 * https://gitee.com/freqchip/fr5080  
+
+## 8000烧录器, 每次烧录需要重启, fr8000_config.exe  
+* https://gitee.com/freqchip/fr8000/tree/master/tools
+
+## 8010烧录器和安卓传输文件的apk, FR8010H_Download_Tool.exe  
+* https://gitee.com/freqchip/FR801xH-SDK/tree/master/tools
+* Fr8010loadsbc_v1.2.apk  
+
+## 烧写UI.bin, FreqChip_Download.exe  
+* https://gitee.com/http1520/lvgl_knob_open_demo
+* https://gitee.com/http1520/lvgl_knob_open_demo/tree/master/freq_download
+* freq_download.rar
+
+## 合并all.bin, bin_packet_tools.exe  
+* https://gitee.com/http1520/file_hander_tools  

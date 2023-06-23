@@ -46,7 +46,18 @@ SDA<-->PB2 (left top 2)
 RES<-->PD5 (left top 5)   
 DC<-->PB3 (right top 2)   
 CS<-->PA5 (right bottom 4)    
-BLK<-->NC  
+BLK<-->NC
+!!! check result
+x PB0
+PB2 x
+PB4(effect color) PB5(effect color)
+PB6 x
+PD5 V33
+x x
+x x
+VBAT GND
+x x
+x x
 ```
 ```
 我终于跑通了富芮坤FR8008XP开发板和400分辨率圆形屏的用法，烧录效果如下。这里有几个问题

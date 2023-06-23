@@ -38,7 +38,7 @@ https://gitee.com/http1520/file_hander_tools.git
 然后可以只烧录ble_simple_peripheral.bin（写到0x0）  
 https://gitee.com/http1520/lvgl_knob_open_demo  
 ```
-!!! not sure  
+!!! not sure if this is right !!!  
 GND<-->GND (right bottom 3)   
 VCC<-->VBAT (left bottom 3)   
 SCL<-->PB0 (right top 1)   
@@ -47,7 +47,8 @@ RES<-->PD5 (left top 5)
 DC<-->PB3 (right top 2)   
 CS<-->PA5 (right bottom 4)    
 BLK<-->NC
-!!! check result
+===
+!!! check result !!!  
 x PB0
 PB2 x
 PB4(effect color) PB5(effect color)
